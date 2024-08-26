@@ -4,12 +4,12 @@
         {
             "src":"./app.py",
             "use": "@vercel/python",
-            "config":{"runtime":"python3.8"}
+            "config":{"runtime":"python3.10.13"}
         }
     ],
     "routes": [
         {
-            "src":"/(.*)",
+            "src":"/",
             "dest":"/"
         }
     ]
